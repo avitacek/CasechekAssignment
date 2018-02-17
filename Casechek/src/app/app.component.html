@@ -1,0 +1,41 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<header class="header">
+  <div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-12">
+            <h3>
+              {{ title }}!
+            </h3>    
+        </div>
+    </div>
+  </div>  
+</header>
+<div class="container-fluid bodyContent">
+  <div class="row">
+    <div class="col-sm-12">
+      <input name="title" placeholder="Search For Product" #searchTerm>
+      <button (click)="performSearch(searchTerm)">Search</button>
+    </div>
+  </div>
+  <div class="row" id="results">
+    <div class="col-sm-4" *ngFor="let g of giphies">
+        <div class="col-sm-6">
+          <img src="{{g.images.original.url}}">
+          <div class="itemHeader">
+            <p class="title">{{g.title}}</p>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <p>{{g.title}}</p>
+          <p>{{g.type}}</p>
+          <p>{{g.bitly_gif_url}}</p>
+          <p>{{g.trending_datetime}}</p>
+          <button>More =&gt;</button>
+        </div>
+
+    </div>
+  </div>
+
+</div>
+
+

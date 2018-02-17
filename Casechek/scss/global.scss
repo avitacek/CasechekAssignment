@@ -1,0 +1,108 @@
+.bodyContent{
+	padding-top:60px;
+	& .row{
+		&:first-child{
+			margin-bottom:30px;
+		}
+		& .col-sm-12{
+			padding:2%;
+			background-color: #f3f3f3;
+			& input{
+				width:80%;
+				float:left;
+				background-color: $white;
+				height:44px;
+				box-shadow:inset 1px 1px 5px $black-25;
+				padding:10px;
+				&:focus{
+					outline:none;
+				}
+
+			}
+			& button{
+				width:20%;
+				float:right;
+				height:44px;
+				border:none;
+				background-color: $light-blue;
+				box-shadow:inset 1px 1px 5px $black-25;
+				color:white;
+				&:focus, &:hover{
+					outline:none;
+				}
+			}
+		}
+		& .col-sm-4{
+			padding:1%;
+			background-color: $white;
+			& .col-sm-6{
+				&:first-child{
+					border:2px solid $light-blue;
+					background-color: $black-25;
+					padding:0;
+					height:300px;
+				}
+				&:nth-child(2){
+					background:#f3f3f3;
+					border:2px solid $light-blue;
+					padding:2%;
+					height:300px;
+					& p{
+						padding:5px;
+						border-bottom:1px solid #dddddd;
+						text-transform: uppercase;
+					}
+				}
+				&  img{
+					border-radius:0px;
+					border-bottom:2px solid $light-blue;
+					overflow:hidden;
+					padding:0px;
+					margin-bottom:10px;
+					width: 100%;
+					height: auto;
+				}
+				& .itemHeader{
+				padding:0px 5px;
+				position:relative;
+				z-index: 2;
+				bottom:0px;
+					& .title{
+						text-transform:uppercase;
+						font-weight:bold;
+						text-align:left;
+						width:100%;
+						margin:0px;
+						padding:0px;
+						float:left;
+					}
+					& .time{
+						text-transform:uppercase;
+						font-weight:bold;
+						text-align:left;
+						width:100%;
+						margin:0px;
+						padding:0px;
+						float:left;
+					}
+				}
+				& button{
+					width:100%;
+					left:0%;
+					height:40px;
+					color:white;
+					background-color: $dark-blue;
+					border:none;
+					position:absolute;
+					bottom:0px;
+					&:hover{
+						outline:none;
+					}
+					&:focus{
+						outline:none;
+					}
+				}
+			}
+		}
+	}
+}

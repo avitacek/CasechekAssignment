@@ -1,0 +1,22 @@
+$breakpoints: (
+	'xs' :320px,
+  	'small'  : 414px,
+  	'smallMedium' : 685px,
+  	'medium' : 768px,
+  	'mediumLarge'  : 992px,
+  	'large'  : 1024px,
+  	'xl'  : 1280px
+);
+//Branding Colors//
+$dark-blue:#001c2a;
+$light-blue:#5294c5;
+$teal:#7dc241;
+$white:#ffffff;
+$white-25:rgba(255,255,255,0.25);
+$white-50:rgba(255,255,255,0.50);
+$white-75:rgba(255,255,255,0.75);
+
+$black:#000000;
+$black-25:rgba(0,0,0,0.25);
+$black-50:rgba(0,0,0,0.50);
+$black-75:rgba(0,0,0,0.75);
