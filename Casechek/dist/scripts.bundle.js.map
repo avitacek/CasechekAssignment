@@ -1,0 +1,1 @@
+{"version":3,"sources":["src/assets/js/global.js"],"names":[],"mappings":"AAAA,8B","file":"scripts.bundle.js","sourcesContent":["console.log('added to files');\n\n\n// WEBPACK FOOTER //\n// src/assets/js/global.js"],"sourceRoot":"webpack:///"}
