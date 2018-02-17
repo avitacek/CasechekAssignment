@@ -1,0 +1,27 @@
+{
+  "name": "casechek-assignment",
+  "version": "1.0.0",
+  "description": "Angular 2 + API assignment",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avitacek/CasechekAssignment.git"
+  },
+  "keywords": [
+    "Angular",
+    "2",
+    "API"
+  ],
+  "author": "Andy Vitacek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/avitacek/CasechekAssignment/issues"
+  },
+  "homepage": "https://github.com/avitacek/CasechekAssignment#readme",
+  "devDependencies": {
+    "ajv": "^6.1.1"
+  }
+}
