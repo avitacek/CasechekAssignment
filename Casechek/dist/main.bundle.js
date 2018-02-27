@@ -63,7 +63,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var AppComponent = /** @class */ (function () {
     function AppComponent(http) {
         this.title = ' to My Completed Assignment App';
-        this.link = 'http://api.giphy.com/v1/gifs/search?api_key=dc6zaTOxFJmzC&q=dogs';
+        this.link = 'http://api.giphy.com/v1/gifs/search?api_key=dc6zaTOxFJmzC&q';
         this.giphies = [];
         this.http = http;
     }

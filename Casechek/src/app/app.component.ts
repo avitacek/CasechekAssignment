@@ -13,7 +13,7 @@ import { Http, Response } from '@angular/http';
 export class AppComponent {
   	title = ' to My Completed Assignment App';
 
-	link = 'http://api.giphy.com/v1/gifs/search?api_key=dc6zaTOxFJmzC&q=dogs'; 
+	link = 'http://api.giphy.com/v1/gifs/search?api_key=dc6zaTOxFJmzC&q'; 
 	//link2 = 'https://data.cityofchicago.org/resource/cwig-ma7x.json';//
 	http: Http; 
 	giphies = [];
