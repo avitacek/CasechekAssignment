@@ -13,8 +13,7 @@ import { Http, Response } from '@angular/http';
 export class AppComponent {
   	title = ' to My Completed Assignment App';
 
-	link = 'http://api.giphy.com/v1/gifs/search?api_key=dc6zaTOxFJmzC&q'; 
-	//link2 = 'https://data.cityofchicago.org/resource/cwig-ma7x.json';//
+	link = 'http://api.giphy.com/v1/gifs/search?api_key=dc6zaTOxFJmzC&q='; 
 	http: Http; 
 	giphies = [];
 
@@ -29,15 +28,6 @@ export class AppComponent {
 			.subscribe((res: Response) => { 
 			this.giphies = res.json().data;
                console.log(this.giphies); 
-		});
-	}
-	checkCity(searchTerm: HTMLInputElement): void{
-		var apiLink2 = this.link;
-		this.http.request(apiLink2)
-
-			.subscribe((res: Response) => {
-			//this.giphies = res.json.data;
-				console.log(this);
 		});
 	}
 
